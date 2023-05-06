@@ -15,12 +15,13 @@ export default function Home() {
             // console.log(response.data)
             if (response.data) {
                 // console.log(response.data);
+                console.log(response)
                 setClaims(response.data);
             } else {
                 alert("Incorrect");
             }
         })
-    });
+    },[]);
 
 
     // useEffect(() => {
@@ -41,7 +42,7 @@ export default function Home() {
 
     return (
         <div className='dashboard-container'>
-            <h1>Dashboard</h1>
+            {/* <h1>Dashboard</h1>
             <Table striped bordered hover className='table-style'>
             <thead>
                 <tr>
@@ -68,7 +69,7 @@ export default function Home() {
                 }
             </tbody>
             </Table>
-            <Button href="/home">Create new claim</Button> 
+            <Button href="/home">Create new claim</Button>  */}
         </div>
     );
 }

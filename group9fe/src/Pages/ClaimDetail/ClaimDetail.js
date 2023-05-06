@@ -13,7 +13,6 @@ const ClaimDetail = () => {
   const { employeeId, claimId, currencyId, projectId, status } = location.state;
 
 
-  
 
 
 
