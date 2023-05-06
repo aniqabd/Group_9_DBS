@@ -1,7 +1,8 @@
 import Table from 'react-bootstrap/Table';
 import { useEffect, useState } from "react";
 import Button from 'react-bootstrap/Button';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { getClaims } from "../../Apis/Api";
 
 import './Home.css'
 
@@ -10,12 +11,10 @@ export default function Home() {
 
     useEffect(() => {
     const fetchdata = async () => {
-
         const response = await fetch(
             'https://api.sampleapis.com/countries/countries');
             const data = await response.json();
             setClaims( data.slice( 0,3) )
-        
     }
     fetchdata();
     }, []);

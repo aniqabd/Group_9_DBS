@@ -8,16 +8,16 @@ import ClaimDetail from "./Pages/ClaimDetail/ClaimDetail";
 
 function App() {
   // To change the state to default false later!!
-  const [loginStatus, setLoginStatus] = useState(true);
+  const [loginStatus, setLoginStatus] = useState(false);
 
   // To enable later!
-  // useEffect(() => {
-  //   if (localStorage.getItem("token")) {
-  //     setLoginStatus(true);
-  //   } else {
-  //     setLoginStatus(false);
-  //   }
-  // }, []);
+  useEffect(() => {
+    if (localStorage.getItem("token")) {
+      setLoginStatus(true);
+    } else { 
+      setLoginStatus(false);
+    }
+  }, []);
 
   return (
     <div className="App">
@@ -29,7 +29,7 @@ function App() {
           <>
             <NavBar />
             <Routes>
-              <Route path="/home" element={<Home />} />
+              <Route path="/" element={<Home />} />
               <Route path="/claimdetail" element={<ClaimDetail />} />
             </Routes>
           </>
