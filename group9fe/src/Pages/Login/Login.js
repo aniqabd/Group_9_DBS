@@ -28,12 +28,13 @@ export const Login = () => {
     // setSubmitting(true);
     login(formData)
       .then((response) => {
-        if (response.data) {
+        if (response.data.token) {
           const token = response.data.access_token;
           localStorage.setItem("token", token);
           window.location.reload(false);
 
-          console.log(response);
+          console.log(response.data);
+          console.log(formData);
         } else {
           alert("Incorrect authentication");
         }
@@ -55,7 +56,7 @@ export const Login = () => {
             <Form.Control
               type="email"
               placeholder="Enter email"
-              name="employeeID"
+              name="EmployeeId"
               onChange={handleChange}
             />
           </Form.Group>
@@ -65,7 +66,7 @@ export const Login = () => {
             <Form.Control
               type="password"
               placeholder="Password"
-              name="password"
+              name="Password"
               onChange={handleChange}
             />
           </Form.Group>

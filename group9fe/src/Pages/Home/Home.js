@@ -60,8 +60,8 @@ export default function Home() {
                         <td className='table-data'>{claim.CurrencyID }</td>
                             <td className='status' style={{ color: getColor("Approved") }}>{claim.Status}</td>
                         <td className='table-data'><Link to={{
-                            pathname: '/claimdetails',
-                            state: {employeeId: 100, claimId: 200, currencyId: 'MYR', projectId: 300}
+                            pathname: '/claimdetail',
+                            state: {employeeId: 10001, claimId: 200, currencyId: 'MYR', projectId: 300, status: ''}
                             }} >Details</Link></td>
                     </tr>
                     )
