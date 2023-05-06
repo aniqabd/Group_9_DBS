@@ -4,8 +4,19 @@ import { Navbar } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import { NavDropdown } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 function NavBar() {
+
+
+  let history = useNavigate();
+
+  function logout() {
+    window.localStorage.removeItem("token");
+    history.push("/");
+    window.location.reload(false);
+  }
+
   return (
     <div className="App">
       <Navbar bg="dark" variant="dark" >
@@ -16,6 +27,9 @@ function NavBar() {
 
             {/* to Delete this link later!! */}
             <Nav.Link href="/claimdetail">ClaimDetail</Nav.Link>
+            <Nav.Link onClick={logout} href="/">
+              Logout
+            </Nav.Link>
 
 
             {/* <Nav.Link href="#features">Projects</Nav.Link>
