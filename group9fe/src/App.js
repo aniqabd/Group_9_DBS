@@ -10,16 +10,16 @@ import ClaimDetail from "./Pages/ClaimDetail/ClaimDetail";
 
 function App() {
   // To change the state to default false later!!
-  const [loginStatus, setLoginStatus] = useState(false);
+  const [loginStatus, setLoginStatus] = useState(true);
 
   // To enable later!
-  useEffect(() => {
-    if (localStorage.getItem("token")) {
-      setLoginStatus(true);
-    } else { 
-      setLoginStatus(false);
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (localStorage.getItem("token")) {
+  //     setLoginStatus(true);
+  //   } else { 
+  //     setLoginStatus(false);
+  //   }
+  // }, []);
 
   return (
     <div className="App">
