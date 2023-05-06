@@ -16,7 +16,6 @@ const ClaimDetail = () => {
 
 
 
-
   return (
     <div>
       <Container>
