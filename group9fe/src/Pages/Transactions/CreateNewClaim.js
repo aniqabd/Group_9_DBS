@@ -24,6 +24,8 @@ function CreateNewClaim() {
     purpose: "",
     previous_claim_boolean: "",
     previous_claim_id: "",
+    charge_to_default_dept: "",
+    alternative_dept_code: ""
   });
 
   const handleChange = (e) => {
@@ -50,6 +52,7 @@ function CreateNewClaim() {
 
   return (
     <form className="container mt-3 mb-3">
+      <h3>Create a new claim record</h3>
       <Row className="mb-3">
         <Form.Group controlId="formBasicEmail" className="col col-sm-6">
           <Form.Label>First Name</Form.Label>
@@ -111,7 +114,7 @@ function CreateNewClaim() {
           />
         </Form.Group>
       </Row>
-      <Row className="mb-3">
+      {/* <Row className="mb-3">
         <Form.Group
           controlId="formBasicPreviousClaimBoolean"
           className="col col-sm-6"
@@ -140,6 +143,48 @@ function CreateNewClaim() {
             value={form.previous_claim_id}
             onChange={handleChange}
           />
+        </Form.Group>
+      </Row> */}
+      <Row className="mb-3">
+        <Form.Group
+          controlId="formBasicChargeToDefaultDept"
+          className="col col-sm-6"
+        >
+          <Form.Label>Charge to default department</Form.Label>
+          <Form.Select
+            defaultValue="False"
+            className="form-control"
+            name="charge_to_default_dept"
+            value={form.charge_to_default_dept}
+            onChange={handleChange}
+          >
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+          </Form.Select>
+        </Form.Group>
+        <Form.Group
+          controlId="formBasicAlternativeDept"
+          className="col col-sm-6"
+        >
+          <Form.Label>Select Alternative Department</Form.Label>
+          <Form.Select
+            defaultValue="0"
+            className="form-control"
+            name="alternative_dept_code"
+            value={form.alternative_dept_code}
+            onChange={handleChange}
+          >
+            <option value="101">101 Sales</option>
+            <option value="102">102 Marketing</option>
+            <option value="103">103 Human Resources</option>
+            <option value="104">104 Finance</option>
+            <option value="105">105 Information Technology</option>
+            <option value="106">106 Customer Service</option>
+            <option value="107">107 Engineering</option>
+            <option value="108">108 Research and Development</option>
+            <option value="109">109 Procurement</option>
+            <option value="110">110 Insurance</option>
+          </Form.Select>
         </Form.Group>
       </Row>
       <Row className="mb-3">
