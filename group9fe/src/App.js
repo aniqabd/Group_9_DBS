@@ -31,9 +31,9 @@ function App() {
           <>
             <NavBar />
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/claimdetail" element={<ClaimDetail />} />
-              <Route path="/create-new-claim-record" element={<CreateNewClaim />}></Route>
+                <Route path="/claimdetail" element={<ClaimDetail />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/create-new-claim-record" element={<CreateNewClaim />}></Route>
             </Routes>
           </>
         )}

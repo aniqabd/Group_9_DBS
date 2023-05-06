@@ -1,11 +1,11 @@
 const express = require("express"); //import express
-const cors = require("cors"); 
+const cors = require("cors");
 const app = express();
 app.use(express.json());
 app.use(cors());
 
 // token
-const jwt = require('jsonwebtoken');
+const jwt = require("jsonwebtoken");
 
 // connect to db
 const mysql = require("mysql2");
@@ -29,7 +29,7 @@ app.listen(5000, () => {
 });
 
 // Create endpoint for user authentication
-app.post('/authenticate', (req, res) => {
+app.post("/authenticate", (req, res) => {
   const { EmployeeId, Password } = req.body;
 
   // Validate user credentials against database
@@ -40,12 +40,25 @@ app.post('/authenticate', (req, res) => {
     }
     if (result.length > 0) {
       // User is authenticated
-      const payload = { EmployeeId: EmployeeId};
-      const secret = 'mySecretKey';
+      const payload = { EmployeeId: EmployeeId };
+      const secret = "mySecretKey";
       const token = jwt.sign(payload, secret);
-      res.json({ EmployeeId: EmployeeId, token: token});
+      res.json({ EmployeeId: EmployeeId, token: token });
     } else {
-      res.json({message: 'unsucessful login'});
+      res.json({ message: "unsucessful login" });
     }
   });
+});
+
+// Get all claims by EmployeeId
+app.get(`/getAllClaims`, (req, res) => {
+  const EmployeeId = req.params.EmployeeId;
+  const hardCode = {
+    EmployeeId: EmployeeId,
+    Status: "Pending",
+    ProjectID: 10001,
+    ClaimID: 11147,
+    CurrencyID: "SGD",
+  };
+  res.json(hardCode)
 });

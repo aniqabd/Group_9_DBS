@@ -8,16 +8,30 @@ import './Home.css'
 
 export default function Home() {
     const [ allClaims, setClaims ] = useState([]);
-
+    
+    const employeeID = 10001;
     useEffect(() => {
-    const fetchdata = async () => {
-        const response = await fetch(
-            'https://api.sampleapis.com/countries/countries');
-            const data = await response.json();
-            setClaims( data.slice( 0,3) )
-    }
-    fetchdata();
-    }, []);
+        getClaims().then((response) => {
+            // console.log(response.data)
+            if (response.data) {
+                // console.log(response.data);
+                setClaims(response.data);
+            } else {
+                alert("Incorrect");
+            }
+        })
+    });
+
+
+    // useEffect(() => {
+    //     const fetchdata = async () => {
+    //     const response = await fetch(
+    //         'https://api.sampleapis.com/countries/countries');
+    //         const data = await response.json();
+    //         setClaims( data.slice( 0,3) )
+    // }
+    // fetchdata();
+    // }, []);
 
     const getColor = (status) => {
         if (status == "Rejected") return 'red';
@@ -41,13 +55,12 @@ export default function Home() {
                 {
                     allClaims.map( (claim,key) =>
                     <tr key={key}>
-                        <td className='table-data'>{claim.name }</td>
-                        <td className='table-data'>{claim.capital }</td>
-                        <td className='table-data'><img width='20px' height='10px'
-                                src={claim.media.flag} alt="flag" /></td>
-                        <td className='status' style={{color: getColor("Approved")}}>Approved</td>
+                        <td className='table-data'>{claim.ClaimID }</td>
+                        <td className='table-data'>{claim.ProjectID }</td>
+                        <td className='table-data'>{claim.CurrencyID }</td>
+                            <td className='status' style={{ color: getColor("Approved") }}>{claim.Status}</td>
                         <td className='table-data'><Link to={{
-                            pathname: '/home',
+                            pathname: '/claimdetails',
                             state: {employeeId: 100, claimId: 200, currencyId: 'MYR', projectId: 300}
                             }} >Details</Link></td>
                     </tr>
