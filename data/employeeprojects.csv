@@ -1,0 +1,11 @@
+ProjectID,EmployeeID,ProjectName,ProjectStatus,ProjectBudget,ProjectLeadID
+10001,10001,"Mobile Banking App","In Progress",15000,10002
+10002,10003,"Online Payment Gateway",Completed,25000,10004
+10003,10005,"ATM Upgrade","In Progress",18000,10006
+10004,10007,"Credit Scoring System",Terminated,30000,10008
+10005,10009,"Core Banking System Migration","In Progress",20000,10010
+10006,10011,"Digital Onboarding Platform","Yet To Commence",35000,10012
+10007,10013,"Trade Finance Automation",Completed,27000,10014
+10008,10015,"Customer Data Management System","In Progress",19000,10016
+10009,10017,"Risk Management Dashboard",Terminated,32000,10018
+10010,10019,"Loan Origination System","Yet To Commence",40000,10020
