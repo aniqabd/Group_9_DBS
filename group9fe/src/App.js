@@ -27,7 +27,7 @@ function App() {
         ) : (
           <>
             <NavBar />
-            <Routes></Routes>
+            <Routes><Route path="/create-new-claim-record" element={<CreateNewClaim />}></Route></Routes>
           </>
         )}
       </Router>
