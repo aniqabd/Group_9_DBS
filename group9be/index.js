@@ -5,7 +5,7 @@ app.use(express.json());
 app.use(cors());
 
 // connect to db
-const mysql = require("mysql");
+const mysql = require("mysql2");
 require("dotenv").config();
 const db = mysql.createConnection({
   host: "localhost",
