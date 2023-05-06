@@ -1,0 +1,708 @@
+[{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c10d"
+  },
+  "ClaimID": 11147,
+  "ProjectID": 10001,
+  "EmployeeID": 10011,
+  "CurrencyID": "SGD",
+  "ExpenseDate": "2023-04-29 08:30:00",
+  "Amount": 100.5,
+  "Purpose": "Banking tech",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-30 10:00:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c10e"
+  },
+  "ClaimID": 11148,
+  "ProjectID": 10002,
+  "EmployeeID": 10015,
+  "CurrencyID": "IDR",
+  "ExpenseDate": "2023-04-28 10:00:00",
+  "Amount": 250.75,
+  "Purpose": "Operations",
+  "ChargeToDefaultDept": 0,
+  "Status": "Approved",
+  "LastEditedClaimDate": "2023-04-30 11:30:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c10f"
+  },
+  "ClaimID": 11149,
+  "ProjectID": 10003,
+  "EmployeeID": 10014,
+  "CurrencyID": "JPY",
+  "ExpenseDate": "2023-04-27 13:45:00",
+  "Amount": 500,
+  "Purpose": "Banking operations",
+  "ChargeToDefaultDept": 0,
+  "Status": "Rejected",
+  "LastEditedClaimDate": "2023-04-30 12:15:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c110"
+  },
+  "ClaimID": 11150,
+  "ProjectID": 10004,
+  "EmployeeID": 10018,
+  "CurrencyID": "SGD",
+  "ExpenseDate": "2023-04-26 15:30:00",
+  "Amount": 175.25,
+  "Purpose": "Banking tech",
+  "ChargeToDefaultDept": 1,
+  "AlternativeDeptCode": 105,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-30 13:00:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c111"
+  },
+  "ClaimID": 11151,
+  "ProjectID": 10005,
+  "EmployeeID": 10020,
+  "CurrencyID": "KRW",
+  "ExpenseDate": "2023-04-25 17:15:00",
+  "Amount": 350,
+  "Purpose": "Banking operations",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-30 14:30:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c112"
+  },
+  "ClaimID": 11152,
+  "ProjectID": 10006,
+  "EmployeeID": 10012,
+  "CurrencyID": "IDR",
+  "ExpenseDate": "2023-04-24 19:00:00",
+  "Amount": 50,
+  "Purpose": "Banking tech",
+  "ChargeToDefaultDept": 0,
+  "Status": "Approved",
+  "LastEditedClaimDate": "2023-04-30 15:45:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c113"
+  },
+  "ClaimID": 11156,
+  "ProjectID": 10006,
+  "EmployeeID": 10018,
+  "CurrencyID": "JPY",
+  "ExpenseDate": "2023-04-29 09:12:00",
+  "Amount": 5000,
+  "Purpose": "Banking software upgrade",
+  "ChargeToDefaultDept": 0,
+  "Status": "Approved",
+  "LastEditedClaimDate": "2023-04-30 13:28:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c114"
+  },
+  "ClaimID": 11157,
+  "ProjectID": 10007,
+  "EmployeeID": 10020,
+  "CurrencyID": "IDR",
+  "ExpenseDate": "2023-04-28 11:30:00",
+  "Amount": 1000000,
+  "Purpose": "Operations software license fee",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-30 13:30:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c115"
+  },
+  "ClaimID": 11158,
+  "ProjectID": 10002,
+  "EmployeeID": 10016,
+  "CurrencyID": "SGD",
+  "ExpenseDate": "2023-04-27 15:45:00",
+  "Amount": 250,
+  "Purpose": "Banking conference registration fee",
+  "ChargeToDefaultDept": 1,
+  "AlternativeDeptCode": 104,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-30 13:32:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c116"
+  },
+  "ClaimID": 11159,
+  "ProjectID": 10008,
+  "EmployeeID": 10010,
+  "CurrencyID": "INR",
+  "ExpenseDate": "2023-04-26 10:20:00",
+  "Amount": 7500,
+  "Purpose": "Operations training program fee",
+  "ChargeToDefaultDept": 0,
+  "Status": "Approved",
+  "LastEditedClaimDate": "2023-04-30 13:34:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c117"
+  },
+  "ClaimID": 11160,
+  "ProjectID": 10009,
+  "EmployeeID": 10019,
+  "CurrencyID": "KHR",
+  "ExpenseDate": "2023-04-25 14:00:00",
+  "Amount": 150,
+  "Purpose": "Banking seminar fee",
+  "ChargeToDefaultDept": 0,
+  "Status": "Rejected",
+  "LastEditedClaimDate": "2023-04-30 13:36:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c118"
+  },
+  "ClaimID": 11161,
+  "ProjectID": 10003,
+  "EmployeeID": 10015,
+  "CurrencyID": "HKD",
+  "ExpenseDate": "2023-04-24 12:30:00",
+  "Amount": 2000,
+  "Purpose": "Operations software upgrade",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-30 13:38:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c119"
+  },
+  "ClaimID": 11164,
+  "ProjectID": 10004,
+  "EmployeeID": 10011,
+  "CurrencyID": "SGD",
+  "ExpenseDate": "2023-04-29 10:00:00",
+  "Amount": 25,
+  "Purpose": "IT support",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-29 10:30:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c11a"
+  },
+  "ClaimID": 11165,
+  "ProjectID": 10005,
+  "EmployeeID": 10012,
+  "CurrencyID": "IDR",
+  "ExpenseDate": "2023-04-28 14:30:00",
+  "Amount": 2000000,
+  "Purpose": "Hardware purchase",
+  "ChargeToDefaultDept": 1,
+  "AlternativeDeptCode": 105,
+  "Status": "Approved",
+  "LastEditedClaimDate": "2023-04-29 09:30:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c11b"
+  },
+  "ClaimID": 11166,
+  "ProjectID": 10002,
+  "EmployeeID": 10011,
+  "CurrencyID": "KRW",
+  "ExpenseDate": "2023-04-28 16:45:00",
+  "Amount": 15000,
+  "Purpose": "Printing materials",
+  "ChargeToDefaultDept": 0,
+  "Status": "Rejected",
+  "LastEditedClaimDate": "2023-04-29 11:00:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c11c"
+  },
+  "ClaimID": 11167,
+  "ProjectID": 10007,
+  "EmployeeID": 10012,
+  "CurrencyID": "VND",
+  "ExpenseDate": "2023-04-27 13:15:00",
+  "Amount": 750000,
+  "Purpose": "Data entry software",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-29 08:45:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c11d"
+  },
+  "ClaimID": 11168,
+  "ProjectID": 10006,
+  "EmployeeID": 10016,
+  "CurrencyID": "CNY",
+  "ExpenseDate": "2023-04-26 11:30:00",
+  "Amount": 500,
+  "Purpose": "Office supplies",
+  "ChargeToDefaultDept": 0,
+  "Status": "Approved",
+  "LastEditedClaimDate": "2023-04-29 10:15:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c11e"
+  },
+  "ClaimID": 11169,
+  "ProjectID": 10010,
+  "EmployeeID": 10019,
+  "CurrencyID": "TWD",
+  "ExpenseDate": "2023-04-25 09:45:00",
+  "Amount": 8000,
+  "Purpose": "Telecommunications",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-29 09:00:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c11f"
+  },
+  "ClaimID": 11170,
+  "ProjectID": 10009,
+  "EmployeeID": 10019,
+  "CurrencyID": "SGD",
+  "ExpenseDate": "2023-04-27 10:12:45",
+  "Amount": 232.5,
+  "Purpose": "IT infrastructure upgrade",
+  "ChargeToDefaultDept": 0,
+  "AlternativeDeptCode": 105,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-29 13:45:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c120"
+  },
+  "ClaimID": 11171,
+  "ProjectID": 10001,
+  "EmployeeID": 10016,
+  "CurrencyID": "JPY",
+  "ExpenseDate": "2023-04-28 08:30:15",
+  "Amount": 15900,
+  "Purpose": "Bank reconciliation software",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-29 14:25:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c121"
+  },
+  "ClaimID": 11172,
+  "ProjectID": 10010,
+  "EmployeeID": 10010,
+  "CurrencyID": "INR",
+  "ExpenseDate": "2023-04-28 16:45:30",
+  "Amount": 4500,
+  "Purpose": "Teleconferencing equipment",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-29 15:10:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c122"
+  },
+  "ClaimID": 11173,
+  "ProjectID": 10008,
+  "EmployeeID": 10012,
+  "CurrencyID": "IDR",
+  "ExpenseDate": "2023-04-29 09:15:00",
+  "Amount": 2100000,
+  "Purpose": "Core banking system upgrade",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-30 09:20:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c123"
+  },
+  "ClaimID": 11174,
+  "ProjectID": 10005,
+  "EmployeeID": 10013,
+  "CurrencyID": "TWD",
+  "ExpenseDate": "2023-04-29 11:30:45",
+  "Amount": 20000,
+  "Purpose": "Mobile banking app development",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-30 11:45:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c124"
+  },
+  "ClaimID": 11175,
+  "ProjectID": 10002,
+  "EmployeeID": 10010,
+  "CurrencyID": "SGD",
+  "ExpenseDate": "2023-04-29 13:20:00",
+  "Amount": 750,
+  "Purpose": "Travel expenses for IT training",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-30 14:30:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c125"
+  },
+  "ClaimID": 11176,
+  "ProjectID": 10006,
+  "EmployeeID": 10018,
+  "CurrencyID": "CNY",
+  "ExpenseDate": "2023-04-30 08:45:00",
+  "Amount": 8000,
+  "Purpose": "Cloud storage subscription",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-30 09:15:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c126"
+  },
+  "ClaimID": 11177,
+  "ProjectID": 10003,
+  "EmployeeID": 10015,
+  "CurrencyID": "HKD",
+  "ExpenseDate": "2023-04-30 11:30:00",
+  "Amount": 5500,
+  "Purpose": "Hardware maintenance contract renewal",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-30 12:00:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c127"
+  },
+  "ClaimID": 11178,
+  "ProjectID": 10007,
+  "EmployeeID": 10011,
+  "CurrencyID": "KHR",
+  "ExpenseDate": "2023-04-30 14:15:30",
+  "Amount": 600000,
+  "Purpose": "Server upgrade",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-30 14:45:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c128"
+  },
+  "ClaimID": 11179,
+  "ProjectID": 10004,
+  "EmployeeID": 10020,
+  "CurrencyID": "VND",
+  "ExpenseDate": "2023-04-30 16:00:00",
+  "Amount": 1800000,
+  "Purpose": "Data analytics software license",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-30 16:00:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c129"
+  },
+  "ClaimID": 11210,
+  "ProjectID": 10007,
+  "EmployeeID": 10020,
+  "CurrencyID": "SGD",
+  "ExpenseDate": "2023-04-27 09:30:00",
+  "Amount": 15.5,
+  "Purpose": "IT Equipment Purchase",
+  "ChargeToDefaultDept": 0,
+  "Status": "Approved",
+  "LastEditedClaimDate": "2023-04-28 10:15:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c12a"
+  },
+  "ClaimID": 11211,
+  "ProjectID": 10005,
+  "EmployeeID": 10011,
+  "CurrencyID": "KRW",
+  "ExpenseDate": "2023-04-28 14:20:00",
+  "Amount": 200000,
+  "Purpose": "Training Course Fees",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-28 16:35:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c12b"
+  },
+  "ClaimID": 11212,
+  "ProjectID": 10003,
+  "EmployeeID": 10016,
+  "CurrencyID": "HKD",
+  "ExpenseDate": "2023-04-29 08:45:00",
+  "Amount": 2500,
+  "Purpose": "Business Lunch Meeting",
+  "ChargeToDefaultDept": 1,
+  "AlternativeDeptCode": 103,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-29 12:20:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c12c"
+  },
+  "ClaimID": 11213,
+  "ProjectID": 10004,
+  "EmployeeID": 10012,
+  "CurrencyID": "CNY",
+  "ExpenseDate": "2023-04-29 15:00:00",
+  "Amount": 500,
+  "Purpose": "Stationery and Supplies",
+  "ChargeToDefaultDept": 0,
+  "Status": "Rejected",
+  "LastEditedClaimDate": "2023-04-30 09:45:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c12d"
+  },
+  "ClaimID": 11214,
+  "ProjectID": 10010,
+  "EmployeeID": 10014,
+  "CurrencyID": "IDR",
+  "ExpenseDate": "2023-04-29 10:00:00",
+  "Amount": 75000,
+  "Purpose": "Marketing Materials",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-30 11:30:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c12e"
+  },
+  "ClaimID": 11215,
+  "ProjectID": 10002,
+  "EmployeeID": 10020,
+  "CurrencyID": "INR",
+  "ExpenseDate": "2023-04-30 13:45:00",
+  "Amount": 8000,
+  "Purpose": "Team Building Event",
+  "ChargeToDefaultDept": 0,
+  "Status": "Approved",
+  "LastEditedClaimDate": "2023-04-30 16:20:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c12f"
+  },
+  "ClaimID": 11216,
+  "ProjectID": 10005,
+  "EmployeeID": 10011,
+  "CurrencyID": "SGD",
+  "ExpenseDate": "2023-04-29 08:30:00",
+  "Amount": 56.72,
+  "Purpose": "Banking Operations Training",
+  "ChargeToDefaultDept": 1,
+  "AlternativeDeptCode": 105,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-29 14:30:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c130"
+  },
+  "ClaimID": 11217,
+  "ProjectID": 10008,
+  "EmployeeID": 10012,
+  "CurrencyID": "JPY",
+  "ExpenseDate": "2023-04-28 10:45:00",
+  "Amount": 3480,
+  "Purpose": "IT Infrastructure Upgrade",
+  "ChargeToDefaultDept": 0,
+  "Status": "Approved",
+  "LastEditedClaimDate": "2023-04-29 09:20:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c131"
+  },
+  "ClaimID": 11218,
+  "ProjectID": 10001,
+  "EmployeeID": 10013,
+  "CurrencyID": "IDR",
+  "ExpenseDate": "2023-04-26 15:15:00",
+  "Amount": 900000,
+  "Purpose": "Marketing Campaign Expenses",
+  "ChargeToDefaultDept": 0,
+  "Status": "Rejected",
+  "LastEditedClaimDate": "2023-04-27 11:30:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c132"
+  },
+  "ClaimID": 11219,
+  "ProjectID": 10003,
+  "EmployeeID": 10014,
+  "CurrencyID": "HKD",
+  "ExpenseDate": "2023-04-24 12:30:00",
+  "Amount": 1200.5,
+  "Purpose": "Office Supplies Purchase",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-26 16:45:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c133"
+  },
+  "ClaimID": 11220,
+  "ProjectID": 10006,
+  "EmployeeID": 10015,
+  "CurrencyID": "KHR",
+  "ExpenseDate": "2023-04-23 11:00:00",
+  "Amount": 150000,
+  "Purpose": "Client Meeting Expenses",
+  "ChargeToDefaultDept": 0,
+  "Status": "Approved",
+  "LastEditedClaimDate": "2023-04-25 14:15:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c134"
+  },
+  "ClaimID": 11221,
+  "ProjectID": 10007,
+  "EmployeeID": 10016,
+  "CurrencyID": "INR",
+  "ExpenseDate": "2023-04-22 14:45:00",
+  "Amount": 3000,
+  "Purpose": "Travel Expenses",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-24 16:30:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c135"
+  },
+  "ClaimID": 11222,
+  "ProjectID": 10008,
+  "EmployeeID": 10014,
+  "CurrencyID": "VND",
+  "ExpenseDate": "2023-04-22 13:30:00",
+  "Amount": 450000,
+  "Purpose": "Banking equipment repair",
+  "ChargeToDefaultDept": 0,
+  "AlternativeDeptCode": 103,
+  "Status": "Rejected",
+  "LastEditedClaimDate": "2023-04-23 14:00:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c136"
+  },
+  "ClaimID": 11223,
+  "ProjectID": 10006,
+  "EmployeeID": 10019,
+  "CurrencyID": "HKD",
+  "ExpenseDate": "2023-04-27 09:00:00",
+  "Amount": 800,
+  "Purpose": "Banking operations training course",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-27 16:30:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c137"
+  },
+  "ClaimID": 11224,
+  "ProjectID": 10005,
+  "EmployeeID": 10017,
+  "CurrencyID": "CNY",
+  "ExpenseDate": "2023-04-25 15:00:00",
+  "Amount": 600,
+  "Purpose": "Banking software maintenance",
+  "ChargeToDefaultDept": 0,
+  "Status": "Approved",
+  "LastEditedClaimDate": "2023-04-26 10:15:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c138"
+  },
+  "ClaimID": 11225,
+  "ProjectID": 10007,
+  "EmployeeID": 10016,
+  "CurrencyID": "IDR",
+  "ExpenseDate": "2023-04-28 14:30:00",
+  "Amount": 300,
+  "Purpose": "Banking Tech",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-28 18:45:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c139"
+  },
+  "ClaimID": 11226,
+  "ProjectID": 10003,
+  "EmployeeID": 10018,
+  "CurrencyID": "JPY",
+  "ExpenseDate": "2023-04-27 10:00:00",
+  "Amount": 1500,
+  "Purpose": "Operations",
+  "ChargeToDefaultDept": 0,
+  "Status": "Approved",
+  "LastEditedClaimDate": "2023-04-27 14:15:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c13a"
+  },
+  "ClaimID": 11227,
+  "ProjectID": 10010,
+  "EmployeeID": 10012,
+  "CurrencyID": "KRW",
+  "ExpenseDate": "2023-04-26 13:00:00",
+  "Amount": 800,
+  "Purpose": "Banking Operations",
+  "ChargeToDefaultDept": 0,
+  "Status": "Rejected",
+  "LastEditedClaimDate": "2023-04-26 17:30:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c13b"
+  },
+  "ClaimID": 11228,
+  "ProjectID": 10002,
+  "EmployeeID": 10011,
+  "CurrencyID": "SGD",
+  "ExpenseDate": "2023-04-25 09:30:00",
+  "Amount": 75,
+  "Purpose": "Banking Tech",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-25 13:45:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c13c"
+  },
+  "ClaimID": 11229,
+  "ProjectID": 10005,
+  "EmployeeID": 10017,
+  "CurrencyID": "INR",
+  "ExpenseDate": "2023-04-24 16:00:00",
+  "Amount": 900,
+  "Purpose": "Banking Operations",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-24 20:15:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c13d"
+  },
+  "ClaimID": 11231,
+  "ProjectID": 10005,
+  "EmployeeID": 10017,
+  "CurrencyID": "INR",
+  "ExpenseDate": "2023-04-24 17:00:00",
+  "Amount": 100,
+  "Purpose": "Banking Operations",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-24 20:17:00"
+},{
+  "_id": {
+    "$oid": "6455c252e6a94c78a991c13e"
+  },
+  "ClaimID": 12230,
+  "ProjectID": 10004,
+  "EmployeeID": 10013,
+  "CurrencyID": "SGD",
+  "ExpenseDate": "2023-04-29 08:00:00",
+  "Amount": 250,
+  "Purpose": "Banking Operations",
+  "ChargeToDefaultDept": 0,
+  "Status": "Pending",
+  "LastEditedClaimDate": "2023-04-29 12:30:00"
+}]
