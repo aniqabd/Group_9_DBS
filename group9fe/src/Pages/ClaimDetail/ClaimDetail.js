@@ -15,8 +15,6 @@ const ClaimDetail = () => {
 
   
 
-
-
   return (
     <div>
       <Container>
@@ -34,7 +32,6 @@ const ClaimDetail = () => {
                   claimID: claimId,
                   employeeId: employeeId,
                 }}
-
               </Link>
               <Button variant="outline-primary">Edit</Button>{" "}
             </div>
