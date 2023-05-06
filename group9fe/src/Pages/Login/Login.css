@@ -1,0 +1,20 @@
+.login-container{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    padding: 2rem;
+    border-radius: 20px;
+    vertical-align: middle;
+
+}
+
+.login-bg{
+    background-color: rgb(207, 227, 252);
+    
+}
+
+.login-bg{
+    height: 100vh;
+    display : flex;
+    align-items : center;
+    justify-content: center;
+}
