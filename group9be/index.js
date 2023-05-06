@@ -24,8 +24,8 @@ db.connect(function (err) {
 });
 
 // check server connection
-app.listen(5000, () => {
-  console.log("Connected to port 5000");
+app.listen(5001, () => {
+  console.log("Connected to port 5001");
 });
 
 // Create endpoint for user authentication
@@ -53,12 +53,12 @@ app.post("/authenticate", (req, res) => {
 // Get all claims by EmployeeId
 app.get(`/getAllClaims`, (req, res) => {
   const EmployeeId = req.params.EmployeeId;
-  const hardCode = {
+  const hardCode = [{
     EmployeeId: EmployeeId,
     Status: "Pending",
     ProjectID: 10001,
     ClaimID: 11147,
     CurrencyID: "SGD",
-  };
+  }];
   res.json(hardCode)
 });

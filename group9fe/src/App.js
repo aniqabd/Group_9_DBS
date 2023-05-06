@@ -33,6 +33,7 @@ function App() {
             <Routes>
                 <Route path="/claimdetail" element={<ClaimDetail />} />
                 <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
                 <Route path="/create-new-claim-record" element={<CreateNewClaim />}></Route>
             </Routes>
           </>

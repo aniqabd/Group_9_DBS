@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const login = (data) => axios.post(`http://localhost:5000/authenticate`, data);
+const login = (data) => axios.post(`http://localhost:5001/authenticate`, data);
 
 // const login = (data) => axios.post(`http://localhost:3000/employee`, data);
 
@@ -9,7 +9,7 @@ const login = (data) => axios.post(`http://localhost:5000/authenticate`, data);
 // const deleteClaim = (data)axios.delete(`https://example.com/api/items/${id}`)
 
 const deleteClaim = (claimId) =>
-  axios.delete(`http://localhost:5000/deleteclaim/${claimId}`);
+  axios.delete(`http://localhost:5001/deleteclaim/${claimId}`);
 
 
 

@@ -24,15 +24,15 @@ export default function Home() {
     },[]);
 
 
-    // useEffect(() => {
-    //     const fetchdata = async () => {
-    //     const response = await fetch(
-    //         'https://api.sampleapis.com/countries/countries');
-    //         const data = await response.json();
-    //         setClaims( data.slice( 0,3) )
-    // }
-    // fetchdata();
-    // }, []);
+    useEffect(() => {
+        const fetchdata = async () => {
+        const response = await fetch(
+            'https://api.sampleapis.com/countries/countries');
+            const data = await response.json();
+            setClaims( data.slice( 0,3) )
+    }
+    fetchdata();
+    }, []);
 
     const getColor = (status) => {
         if (status == "Rejected") return 'red';
@@ -42,7 +42,7 @@ export default function Home() {
 
     return (
         <div className='dashboard-container'>
-            {/* <h1>Dashboard</h1>
+            <h1>Dashboard</h1>
             <Table striped bordered hover className='table-style'>
             <thead>
                 <tr>
@@ -53,7 +53,7 @@ export default function Home() {
                 </tr>
             </thead>
             <tbody>
-                {
+                {/* {
                     allClaims.map( (claim,key) =>
                     <tr key={key}>
                         <td className='table-data'>{claim.ClaimID }</td>
@@ -66,10 +66,10 @@ export default function Home() {
                             }} >Details</Link></td>
                     </tr>
                     )
-                }
+                } */}
             </tbody>
             </Table>
-            <Button href="/home">Create new claim</Button>  */}
+            <Button href="/home">Create new claim</Button> 
         </div>
     );
 }

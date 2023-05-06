@@ -25,7 +25,7 @@ function CreateNewClaim() {
     previous_claim_boolean: "",
     previous_claim_id: "",
     charge_to_default_dept: "",
-    alternative_dept_code: ""
+    alternative_dept_code: "",
   });
 
   const handleChange = (e) => {
@@ -47,6 +47,8 @@ function CreateNewClaim() {
       purpose: "",
       previous_claim_boolean: "",
       previous_claim_id: "",
+      charge_to_default_dept: "",
+      alternative_dept_code: "",
     });
   };
 
@@ -162,7 +164,8 @@ function CreateNewClaim() {
             <option value="1">Yes</option>
           </Form.Select>
         </Form.Group>
-        <Form.Group
+        {form.charge_to_default_dept === "1" ? (
+          <Form.Group
           controlId="formBasicAlternativeDept"
           className="col col-sm-6"
         >
@@ -173,6 +176,7 @@ function CreateNewClaim() {
             name="alternative_dept_code"
             value={form.alternative_dept_code}
             onChange={handleChange}
+            disabled={form.charge_to_default_dept === 0}
           >
             <option value="101">101 Sales</option>
             <option value="102">102 Marketing</option>
@@ -186,6 +190,33 @@ function CreateNewClaim() {
             <option value="110">110 Insurance</option>
           </Form.Select>
         </Form.Group>
+        ) : (
+          <Form.Group
+          controlId="formBasicAlternativeDept"
+          className="col col-sm-6"
+        >
+          <Form.Label>Select Alternative Department</Form.Label>
+          <Form.Select
+            defaultValue="0"
+            className="form-control"
+            name="alternative_dept_code"
+            value={form.alternative_dept_code}
+            onChange={handleChange}
+            disabled
+          >
+            <option value="101">101 Sales</option>
+            <option value="102">102 Marketing</option>
+            <option value="103">103 Human Resources</option>
+            <option value="104">104 Finance</option>
+            <option value="105">105 Information Technology</option>
+            <option value="106">106 Customer Service</option>
+            <option value="107">107 Engineering</option>
+            <option value="108">108 Research and Development</option>
+            <option value="109">109 Procurement</option>
+            <option value="110">110 Insurance</option>
+          </Form.Select>
+        </Form.Group>
+        )}
       </Row>
       <Row className="mb-3">
         <Form.Group controlId="formGridCheckbox" className="col col-sm-6">
