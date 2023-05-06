@@ -1,0 +1,13 @@
+{% extends "base.html" %} {% block content %}
+<form method="POST">
+  <label>
+    Employee ID
+    <input type="employeeid" name="employeeid" />
+  </label>
+  <label>
+    Password
+    <input type="password" name="password" />
+  </label>
+  <input type="submit" value="Log in" />
+</form>
+{% endblock %}

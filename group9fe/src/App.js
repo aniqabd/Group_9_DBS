@@ -5,6 +5,8 @@ import CreateNewClaim from "./Pages/Transactions/CreateNewClaim";
 
 import { Login } from "./Pages/Login/Login";
 import React, { useState, useEffect } from "react";
+import Home from "./Pages/Home/Home"
+import ClaimDetail from "./Pages/ClaimDetail/ClaimDetail";
 
 function App() {
   // To change the state to default false later!!
@@ -22,12 +24,17 @@ function App() {
   return (
     <div className="App">
       <Router>
+
         {loginStatus === false ? (
           <Login />
         ) : (
           <>
             <NavBar />
-            <Routes><Route path="/create-new-claim-record" element={<CreateNewClaim />}></Route></Routes>
+            <Routes>
+              <Route path="/home" element={<Home />} />
+              <Route path="/claimdetail" element={<ClaimDetail />} />
+              <Route path="/create-new-claim-record" element={<CreateNewClaim />}></Route>
+            </Routes>
           </>
         )}
       </Router>

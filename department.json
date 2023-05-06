@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "6455c25be6a94c78a991c140"
+  },
+  "DepartmentCode": 101,
+  "DepartmentName": "Sales"
+},{
+  "_id": {
+    "$oid": "6455c25be6a94c78a991c141"
+  },
+  "DepartmentCode": 102,
+  "DepartmentName": "Marketing"
+},{
+  "_id": {
+    "$oid": "6455c25be6a94c78a991c142"
+  },
+  "DepartmentCode": 103,
+  "DepartmentName": "Human Resources"
+},{
+  "_id": {
+    "$oid": "6455c25be6a94c78a991c143"
+  },
+  "DepartmentCode": 104,
+  "DepartmentName": "Finance"
+},{
+  "_id": {
+    "$oid": "6455c25be6a94c78a991c144"
+  },
+  "DepartmentCode": 105,
+  "DepartmentName": "Information Technology"
+},{
+  "_id": {
+    "$oid": "6455c25be6a94c78a991c145"
+  },
+  "DepartmentCode": 106,
+  "DepartmentName": "Customer Service"
+},{
+  "_id": {
+    "$oid": "6455c25be6a94c78a991c146"
+  },
+  "DepartmentCode": 107,
+  "DepartmentName": "Engineering"
+},{
+  "_id": {
+    "$oid": "6455c25be6a94c78a991c147"
+  },
+  "DepartmentCode": 108,
+  "DepartmentName": "Research and Development"
+},{
+  "_id": {
+    "$oid": "6455c25be6a94c78a991c148"
+  },
+  "DepartmentCode": 109,
+  "DepartmentName": "Procurement"
+},{
+  "_id": {
+    "$oid": "6455c25be6a94c78a991c149"
+  },
+  "DepartmentCode": 110,
+  "DepartmentName": "Insurance"
+}]

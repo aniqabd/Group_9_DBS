@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "6455c236e6a94c78a991c0ed"
+  },
+  "CurrencyID": "CNY",
+  "ExchangeRate": 0.206
+},{
+  "_id": {
+    "$oid": "6455c236e6a94c78a991c0ee"
+  },
+  "CurrencyID": "HKD",
+  "ExchangeRate": 0.17
+},{
+  "_id": {
+    "$oid": "6455c236e6a94c78a991c0ef"
+  },
+  "CurrencyID": "IDR",
+  "ExchangeRate": 0.000093
+},{
+  "_id": {
+    "$oid": "6455c236e6a94c78a991c0f0"
+  },
+  "CurrencyID": "INR",
+  "ExchangeRate": 0.018
+},{
+  "_id": {
+    "$oid": "6455c236e6a94c78a991c0f1"
+  },
+  "CurrencyID": "JPY",
+  "ExchangeRate": 0.012
+},{
+  "_id": {
+    "$oid": "6455c236e6a94c78a991c0f2"
+  },
+  "CurrencyID": "KHR",
+  "ExchangeRate": 0.00025
+},{
+  "_id": {
+    "$oid": "6455c236e6a94c78a991c0f3"
+  },
+  "CurrencyID": "KRW",
+  "ExchangeRate": 0.0011
+},{
+  "_id": {
+    "$oid": "6455c236e6a94c78a991c0f4"
+  },
+  "CurrencyID": "SGD",
+  "ExchangeRate": 1
+},{
+  "_id": {
+    "$oid": "6455c236e6a94c78a991c0f5"
+  },
+  "CurrencyID": "TWD",
+  "ExchangeRate": 0.045
+},{
+  "_id": {
+    "$oid": "6455c236e6a94c78a991c0f6"
+  },
+  "CurrencyID": "VND",
+  "ExchangeRate": 0.000044
+}]
