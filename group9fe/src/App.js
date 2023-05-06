@@ -3,6 +3,7 @@ import "./App.css";
 import NavBar from "./Components/NavBar";
 import { Login } from "./Pages/Login/Login";
 import React, { useState, useEffect } from "react";
+import ClaimDetail from "./Pages/ClaimDetail/ClaimDetail";
 
 function App() {
   // To change the state to default false later!!
@@ -25,7 +26,9 @@ function App() {
         ) : (
           <>
             <NavBar />
-            <Routes></Routes>
+            <Routes>
+              <Route path="/claimdetail" element={<ClaimDetail />} />
+            </Routes>
           </>
         )}
       </Router>
