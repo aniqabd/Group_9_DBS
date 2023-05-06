@@ -13,7 +13,9 @@ const ClaimDetail = () => {
   const { employeeId, claimId, currencyId, projectId, status } = location.state;
 
 
-  
+
+
+
 
   return (
     <div>
@@ -32,6 +34,7 @@ const ClaimDetail = () => {
                   claimID: claimId,
                   employeeId: employeeId,
                 }}
+
               </Link>
               <Button variant="outline-primary">Edit</Button>{" "}
             </div>
