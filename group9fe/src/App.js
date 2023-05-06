@@ -29,8 +29,8 @@ function App() {
           <>
             <NavBar />
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/claimdetail" element={<ClaimDetail />} />
+                <Route path="/claimdetail" element={<ClaimDetail />} />
+                <Route path="/" element={<Home />} />
             </Routes>
           </>
         )}
